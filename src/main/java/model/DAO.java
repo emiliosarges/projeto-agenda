@@ -23,7 +23,7 @@ public class DAO {
 		}
 	}
 	// teste de conexão
-	public void testeConexao() {
+	/**public void testeConexao() {
 		try {
 			Connection con = conectar ();
 			System.out.println(con);
@@ -31,5 +31,6 @@ public class DAO {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-	}
-}
+	} **/
+} 
+
