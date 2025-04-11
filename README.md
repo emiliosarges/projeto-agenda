@@ -29,7 +29,7 @@ Nas últimas semanas venho me dedicando a aprender Java e estou encantado com es
 ### 1. Pré-requisitos
 
 - Java JDK 8 ou superior
-- Apache Tomcat (versão compatível com o projeto)
+- Apache Tomcat 9.0.1
 - MySQL Server
 - IDE compatível com Java Web (Eclipse, IntelliJ IDEA, NetBeans etc.)
 - Navegador web
@@ -53,12 +53,12 @@ git clone https://github.com/emiliosarges/projeto-agenda.git
 
 ### 5. Configure o Banco de Dados MySQL
 
-- Crie um banco de dados chamado `agenda`
-- Execute o script `agenda.sql` (caso disponível no projeto) para criar as tabelas
-- Altere as configurações de conexão no arquivo de configuração (ex: `DAO.java`):
+- Crie um banco de dados chamado `dbagenda`
+- Execute o script `agenda.sql` para criar as tabelas
+- Altere as configurações de conexão no arquivo de configuração DAO.java:
 
 ```java
-String url = "jdbc:mysql://localhost:3306/agenda";
+String url = "jdbc:mysql://localhost:3306/dbagenda";
 String user = "seu_usuario";
 String password = "sua_senha";
 ```
@@ -69,7 +69,7 @@ String password = "sua_senha";
 - Acesse o sistema via navegador:
 
 ```
-http://localhost:8080/nome-do-projeto
+http://localhost:8080/agenda
 ```
 
 ### 7. Exportar PDF (opcional)
