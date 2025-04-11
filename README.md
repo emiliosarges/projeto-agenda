@@ -8,7 +8,7 @@ Projeto realizado para colocar em prática os conhecimentos em Java e apresentar
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachetomcat/apachetomcat-original.svg" alt="Tomcat" width="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Tomcat-logo.svg" alt="Tomcat" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" />
   <img src="https://img.shields.io/badge/JSP-blue?logo=java" alt="JSP" height="25" />
   <img src="https://img.shields.io/badge/Servlets-orange?logo=java" alt="Servlets" height="25" />
@@ -55,7 +55,7 @@ git clone https://github.com/emiliosarges/projeto-agenda.git
 
 - Crie um banco de dados chamado `agenda`
 - Execute o script `agenda.sql` (caso disponível no projeto) para criar as tabelas
-- Altere as configurações de conexão no arquivo de configuração (ex: `DAO.java` ou `ConnectionFactory.java`):
+- Altere as configurações de conexão no arquivo de configuração (ex: `DAO.java`):
 
 ```java
 String url = "jdbc:mysql://localhost:3306/agenda";
@@ -79,21 +79,27 @@ http://localhost:8080/nome-do-projeto
 
 ---
 
-### 📂 Estrutura do Projeto (Exemplo)
+### 📂 Estrutura do Projeto
 
 ```
-/projeto-agenda
-├── /src
-│   ├── controller
-│   ├── model
-│   └── dao
-├── /WebContent
-│   ├── /META-INF
-│   ├── /WEB-INF
-│   ├── index.jsp
-│   └── ...
-├── /lib
-│   └── itextpdf.jar
+/src
+├── main
+│   ├── java
+│   │   ├── controller
+│   │   │   └── Controller.java
+│   │   └── model
+│   │       ├── DAO.java
+│   │       └── JavaBeans.java
+│   └── webapp
+│       ├── imagens/
+│       ├── META-INF/
+│       ├── scripts/
+│       │   └── validador.js
+│       ├── WEB-INF/
+│       ├── agenda.jsp
+│       ├── index.html
+│       ├── novo.html
+│       └── style.css
 ```
 
 ---
