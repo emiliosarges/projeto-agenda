@@ -8,7 +8,7 @@ Projeto realizado para colocar em prática os conhecimentos em Java e apresentar
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Tomcat-logo.svg" alt="Tomcat" width="40" />
+  <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black" height="25" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" />
   <img src="https://img.shields.io/badge/JSP-blue?logo=java" alt="JSP" height="25" />
   <img src="https://img.shields.io/badge/Servlets-orange?logo=java" alt="Servlets" height="25" />
